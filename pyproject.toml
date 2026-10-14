@@ -36,6 +36,7 @@ select = [
 
 [tool.mypy]
 strict = true
+files = ["src", "tests"]
 
 [tool.pytest]
 testpaths = ["tests"]
